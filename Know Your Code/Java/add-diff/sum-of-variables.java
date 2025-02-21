@@ -1,10 +1,18 @@
+import java.util.Scanner;
+
 public class sum {
+    public static void main (string[] args){
+        Scanner uInput = new Scanner(System.in);        
 
-    run|debug
-    public  static void main (string [] args
-    int a=5;
-    int b=6;
+        System.out.println("Please enter the first number");
+        float num1 = uInput.nextFloat();
+        
+        System.out.println("Please enter the second number");
+        float num2 = uInput.nextFloat();
 
-    system.out.println(a+b);
+        res = num1 + num2;
+
+        System.out.println(res);
     
+    }
 }
